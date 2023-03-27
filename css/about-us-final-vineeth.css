@@ -1,0 +1,386 @@
+.end-line {
+    margin-top: 30px;
+    border: 1px solid #dbd9d9;
+}
+
+.peopleinhabot_title {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+    margin-bottom: 61px;
+}
+
+img.dot-img {
+    float: right;
+}
+
+.people-in-habot-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img.blue-border {
+    position: absolute;
+    margin-left: -13px;
+    margin-top: -10px;
+    z-index: -1;
+}
+
+.people-biodata {
+    margin: 0px 100px;
+}
+
+img.red-border {
+    position: absolute;
+    margin-top: 156px;
+    margin-left: -43px;
+    z-index: -1;
+}
+
+.people-name {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 147.4%;
+    /* or 59px */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+display: flex;
+}
+
+
+.people-role {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 147.4%;
+    /* or 40px */
+
+    letter-spacing: 0.02em;
+
+    color: #8F8C8C;
+}
+
+.people-address {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 147.4%;
+    /* or 35px */
+
+    letter-spacing: 0.02em;
+
+    color: #4A4A4A;
+}
+
+.people-bio {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+
+    letter-spacing: 0.005em;
+
+    color: #575757;
+    text-align: justify;
+}
+
+.people-section {
+    display: none;
+
+}
+
+.img-section {
+    display: block;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 374px) {
+
+    /* STYLES HERE */
+    .people-in-habot-section {
+        display: block;
+        margin: 50px 0px;
+    }
+
+    .people-biodata {
+        margin: 0px 10px;
+    }
+
+    .people-name {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 147.4%;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+
+    .people-role {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 147.4%;
+        letter-spacing: 0.02em;
+        color: #8F8C8C;
+    }
+
+    .people-address {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 147.4%;
+        letter-spacing: 0.02em;
+        color: #4A4A4A;
+    }
+
+    .people-bio {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: #575757;
+        text-align: justify;
+    }
+
+    .img-section {
+        margin: 0px 20px;
+    }
+
+    .peopleinhabot_title {
+
+        font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 0px;
+
+    }
+
+    .dot-img {
+        display: none;
+    }
+
+    .people-section {
+        display: block;
+        text-align: center;
+    }
+
+    .img-section {
+        display: none;
+    }
+
+    .end-line {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (min-device-width: 375px) and (max-device-width: 420px) {
+
+    /* STYLES HERE */
+    .people-in-habot-section {
+        display: block;
+        margin: 50px 0px;
+    }
+
+    .people-biodata {
+        margin: 0px 10px;
+    }
+
+    .people-name {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 147.4%;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+
+    .people-role {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 147.4%;
+        letter-spacing: 0.02em;
+        color: #8F8C8C;
+    }
+
+    .people-address {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 147.4%;
+        letter-spacing: 0.02em;
+        color: #4A4A4A;
+    }
+
+    .people-bio {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 38px;
+        letter-spacing: 0.005em;
+        color: #575757;
+        text-align: justify;
+    }
+
+    .img-section {
+        margin: 0px 50px;
+    }
+
+}
+
+@media screen and (min-device-width: 420px) and (max-device-width: 600px) {
+
+    /* STYLES HERE */
+    .people-in-habot-section {
+        display: block;
+        margin: 50px 0px;
+    }
+
+    .people-biodata {
+        margin: 0px 10px;
+    }
+
+    .people-name {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 147.4%;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+
+    .people-role {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 147.4%;
+        letter-spacing: 0.02em;
+        color: #8F8C8C;
+    }
+
+    .people-address {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 147.4%;
+        letter-spacing: 0.02em;
+        color: #4A4A4A;
+    }
+
+    .people-bio {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 38px;
+        letter-spacing: 0.005em;
+        color: #575757;
+        text-align: justify;
+    }
+
+    .img-section {
+        margin: 0px 50px;
+    }
+
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .people-biodata {
+        margin: 0px 40px;
+    }
+}
+
+
+
+@media screen and (min-device-width: 600px) and (max-device-width: 768px) {
+    .people-in-habot-section {
+        display: block;
+        margin: 50px 0px;
+    }
+
+    .people-biodata {
+        margin: 0px 10px;
+    }
+
+    .people-name {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 147.4%;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+
+    .people-role {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 147.4%;
+        letter-spacing: 0.02em;
+        color: #8F8C8C;
+    }
+
+    .people-address {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 147.4%;
+        letter-spacing: 0.02em;
+        color: #4A4A4A;
+    }
+
+    .people-bio {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 38px;
+        letter-spacing: 0.005em;
+        color: #575757;
+        text-align: justify;
+    }
+
+    .img-section {
+        margin: 0px 100px;
+    }
+
+
+}
+
+.linkedin__icon svg{
+    width: 40px;
+    height: 37px;
+    margin: 0px 15px;
+}

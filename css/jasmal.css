@@ -1,0 +1,190 @@
+.license-div{
+    display: flex;
+    min-width: 180px;
+}
+.dmcc-img{
+    height: auto;
+    width: 47px;
+}
+.license-h2{
+    margin-right: 10px;
+}
+.footer-link{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.app-icon__2{
+    margin-top: 10px;
+}
+.fw-bold{
+    text-decoration: none;
+    color: #000;
+}
+.fw-bold:hover{
+    color: #000;
+}
+
+
+@media (min-width: 315px) and (max-width:990px) {
+    .hero-left{
+        background: linear-gradient(90deg, rgba(60,199,225,1) 0%, rgba(98,174,242,1) 32%, rgba(60,199,225,1) 100%);
+    }
+    .hero-left__img{
+        display: none;
+    }
+    .hero-contents{
+        position: initial;
+        width: 100%;
+        padding: 50px;
+    }
+    .hero-left {
+    margin-right: 0px;
+    margin-top: 20px;
+}
+    .feat-list{
+        margin-top: 27px;
+    }
+    .last-card{
+        margin-bottom: 45px;
+    }
+    .subscription-plan__middlecard {
+
+        height: auto;
+    }
+    .credential__p{
+        justify-content: center;
+        align-items: center
+        ;
+    }
+
+}
+.credential__p{
+    display: flex !important;
+    align-items: center;
+}
+.credential__section p{
+    text-align: left !important;
+}
+
+@media screen and (max-width: 995px){
+    .credential__section p{
+        font-size: 15px !important;
+    }
+    .credential_icon{
+        height: auto;
+        width: 40px;
+    }
+}
+@media screen and (max-width: 537px){
+    .credential__section{
+        flex-direction: column;
+    }
+}
+.main-banner__title{
+    width: 100%;
+}
+@media (min-width: 1199px) {
+   .banner-title-res {
+    margin-top: 40px;
+    margin-bottom: -37px;
+}
+}
+@media screen and (max-width: 1205px){
+.main-banner__title{
+    max-width: 60%;
+}
+}
+@media screen and (max-width: 768px){
+    .main-banner__title{
+       text-align: center;
+       margin: auto;
+    }
+    .main-banner-h4{
+        text-align: center;
+    }
+    }
+
+.d-habot-none{
+    display: none;
+}
+    @media (max-width:992px) and (min-width:768px) {
+        .habot-tagline {
+    margin-bottom: 50px;
+    margin-left: 0;
+}
+        .habot-title-main{
+            display: none !important;
+        }
+        .whyHabot-res{
+            display: block !important;
+        }
+        .d-habot-none{
+            display: block !important;
+            padding-bottom: 35px;
+        }
+
+    }
+
+  .banner-title-res {
+    font-size: 24px;
+    line-height: 2;
+    font-weight: 600;
+    font-family: 'Nunito';
+    font-size: 32px;
+    color: #4FB5EA;
+    text-align: center;
+}
+    .login-btn-res{
+        display: none;
+    }
+    .ham-btn{
+        border: none !important;
+    }
+    .ham-btn:focus{
+        box-shadow: none !important;
+    }
+    @media screen and (max-width: 991px){
+        .login-btn-res{
+            display: block;
+            margin-right: 7px;
+        }
+        /* .login-button-dnone{
+            display: none;
+        } */
+    }
+
+    @media screen and (max-width: 768px){
+        .main-banner__title{
+            display: none ;
+
+        }
+        .main-banner-h4{
+            display: none;
+        }
+
+    }
+
+    @media (min-width:540px) and (max-width:768px) {
+.banner-title-res {
+    font-size: 24px !important;
+    line-height: 37px !important;
+}
+    }
+
+    @media screen and (max-width: 450px){
+
+    }
+    @media screen and (max-width: 810px){
+      .login-button {
+    padding: 12px 14px;
+}
+    }
+
+    @media screen and (max-width: 765px){
+    .whyHabotTitle2{
+        margin-top: 0px !important;
+    }
+
+    }
+
+

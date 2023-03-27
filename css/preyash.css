@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.jcc {
+    display: flex;
+    justify-content: center;
+}
+
+.jcsb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fwb {
+    font-weight: bold;
+}
+
+.agentsOf img {
+    height: 100px;
+    width: 100%;
+}
+
+
+
+.socials img {
+    width: 36px;
+    height: 36px;
+    margin-right: 20px;
+}
+
+.varalLogo {
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.lh2 {
+    line-height: 2;
+}
+
+.card-img-top {
+    width: 121px !important;
+    height: 121px;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid #F2F2F2 !important;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05) !important;
+    border-radius: 40px !important;
+    padding: 60px 20px !important;
+    margin-bottom: 40px;
+}
+
+.w80p {
+    width: 80%;
+}
+
+.w100p {
+    width: 100%;
+}
+
+.fxdc_jcc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+.por {
+    position: relative;
+}
+
+.whyHabotTitle {
+    margin-top: -100px;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.whyHabotTitle2 {
+    font-weight: 700;
+    display: none;
+}
+
+.cyan_gradient_light {
+    position: absolute;
+    left: 19%;
+    top: 22%;
+}
+
+.z2 {
+    z-index: 2;
+}
+
+.whyHabot {
+    zoom: 0.90;
+    margin-top: -60px !important;
+}
+
+.abso_fit-content {
+    position: absolute;
+    z-index: 1;
+    right: -32px;
+    bottom: 28%;
+}
+
+.rakez {
+    width: 60% !important;
+}
+
+.card-text {
+    color: #757575;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.footer a {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__break {
+    display: flex;
+}
+
+.copyright {
+    color: #A4A4A4;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.habot_logo {
+    width: 100%;
+    margin-bottom: 115px;
+}
+
+.flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fxdc_aic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.license {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+main hr {
+    background: #aaa;
+}
+
+@media screen and (max-width: 992px) {
+
+    .cyan_gradient,
+    .fit-content,
+    .dots {
+        display: none;
+    }
+
+    .agentsOf img {
+        width: auto !important;
+    }
+
+    .habot_logo {
+        width: auto;
+        margin-bottom: 0px;
+    }
+
+    .fxdc_aic,
+    .flex_center {
+        display: block;
+    }
+}
+
+@media (min-width:375px) and (max-width:899px) {
+    .card {
+        margin-bottom: 10px !important;
+    }
+}
+
+.subNow {
+    color: #007AB9;
+}
+
+
+.pl85 {
+    padding-left: 85px !important;
+}
+
+@media screen and (max-width: 992px) {
+    .pl85 {
+        padding-left: 48px !important;
+    }
+
+    .whyHabot .cyan_gradient_light,
+    .cyan_dots {
+        visibility: hidden;
+    }
+
+    .display-tittle {
+        display: none;
+    }
+}
+
+section .text .light_text {
+    margin-bottom: 10px;
+}
+
+.habot-tagline {
+    margin-left: 35px;
+    margin-bottom: -140px;
+    color: #4FB5EA;
+}
+
+.habot-tagline h3 {
+    font-weight: 600;
+    font-family: 'Nunito';
+    white-space: .5;
+    font-size: 32px;
+}
+
+.habot-tagline h4 {
+    font-weight: 600;
+    font-family: 'Nunito';
+    font-size: 32px;
+}
+
+.cyan_dots {
+    position: absolute;
+}
+
+
+@media only screen and (max-width: 765px) {
+    .happy_robot {
+        font-size: 24px !important;
+        margin: 10px !important;
+    }
+
+    .habot-back::after {
+        zoom: 0.7;
+    }
+
+    .happy_robot-sub {
+        font-size: 18px !important;
+    }
+
+    .footer {
+        display: grid;
+    }
+
+    .address_footer {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .fxdc_jcc {
+        display: grid;
+    }
+
+    .display-tittle {
+        display: none;
+    }
+
+    .whyHabotTitle2 {
+        margin-top: 30px;
+        font-weight: 700;
+        display: block;
+        text-align: center;
+    }
+
+    .whyHabot {
+        margin-top: 0px;
+    }
+
+    .habot-tagline {
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+
+    .habot-tagline-row {
+        margin-top: 0;
+    }
+
+    .habot-tagline p {
+        width: auto;
+    }
+
+    .cyan_dots {
+        display: none;
+    }
+
+    .habot-tagline-row {
+        margin-bottom: 20px;
+    }
+
+    .habot-tagline h4 {
+        font-size: 24px;
+        line-height: 2;
+    }
+
+    .why-margin {
+        margin-top: 20px;
+    }
+}
+
+/* fxdr_jcsb */
+
+@media only screen and (max-width: 500px) {
+    .fxdr_jcsb {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .fxdr_jcsb .card {
+        width: 48%;
+    }
+
+    .card-img-top {
+        width: 60px !important;
+        height: 60px;
+    }
+
+    .card {
+        padding: 30px 0 !important;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 16px;
+    }
+
+    .m0a {
+        margin: 0 auto;
+    }
+}
+
+.happy_robot {
+    color: #456381;
+    font-family: 'Noto sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.happy_robot-sub {
+    color: #8FB7E1;
+    width: 96%;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Noto sans', sans-serif;
+    max-width: 1060px;
+}
+
+.small_cyan {
+    position: absolute;
+    top: -15px;
+    left: 20%;
+}

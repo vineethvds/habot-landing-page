@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&family=Poppins&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/alamin.css">
+    <link rel="stylesheet" href="./assets/css/anik.css">
+
+    <title>FAQ</title>
+</head>
+
+<body>
+    <!-- navbar  -->
+
+    <nav class="navbar navbar-custom   navbar-expand-lg navbar-light d-flex flex-column bg-white ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logo-img" src="./assets/img/HABOT (2).png" alt="" /></a>
+            <button onclick="myFunction()" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="myLinks" class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+                <div class="nav-right">
+                    <a href="">FAQ</a>
+                    <a href="">Service</a>
+                    <a href="">Contact Us</a>
+                    <button class="login-button">Login / Sign up</button>
+                </div>
+            </div>
+        </div>
+        <div class=" custom-margin  bg-white">
+            <div class="d-flex mt-2 ">
+                <a href=""><img src="./assets/img/eva_arrow-back-outline (1).png" alt=""></a>
+                <a class="back-link text-reset" href="">Back</a>
+            </div>
+            <div class="FAQ__header">
+                <div class="searchbar__section mt-3 ">
+                    <div class="d-flex ">
+                        <img class="img-doc me-4 ms-3" src="../assets/img/flat-color-icons_faq.png" alt="">
+                        <div>
+                            <h4>Frequently Asked Questions (FAQ)</h4>
+                            <h6>Last update 12/12/2022</h6>
+                        </div>
+                    </div>
+                    <form>
+                        <input oninput="display()" id="input-click" data-search class="search-input" type="text"
+                            placeholder="Search Answer here">
+                        <button onclick="display()" onclick="fetchQuestion()" class="search-icon" type="button">Search</button>
+                        <div class="search-result" id="search-ques">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <hr>
+<br>
+    </nav>
+
+
+    <body>
+        <main>
+            <section class="container terms-section">
+
+                <!-- terms text  -->
+                
+                    <details>
+                        <summary class="summary__title">Payments</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Aside from credit/debit card payment, what other
+                                payment methods are available?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">For the time
+                                    being, you can pay using your credit/debit card.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I use PayPal to pay for my subscription?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">We do not
+                                    accept PayPal payments. You can pay using credit/debit card.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do I get a refund when I cancel my subscription
+                                before the month ends?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">No, we do
+                                    not issue refunds.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do you require credit card payment before
+                                subscribing to your services?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">No, credit
+                                    card payments are required once you decide to continue your subscription after your
+                                    free trial.</span></p>
+                        </div>
+                    </details>
+                    <hr>
+                    <details>
+                        <summary class="summary__title">Services provided</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What services do you offer?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Habot app
+                                    offers document storage, providing list of requirements to live, work, and do
+                                    business in the UAE,
+                                    providing notification reminders before document expiry, and other services client
+                                    will request.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What does your app do?
+                            </p>
+                            <p><span class="summary__answer">A</span><span class="summary__answer-primary"> Habot app
+                                    keep your documents that require you to live, work, and do business in the UAE in
+                                    one place so
+                                    it will be easier for you to apply to institutuions.</span> </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I use your service for my business?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    can use Habot app for business use. You may check our plan called "Do Business in
+                                    the UAE".</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is it safe to store my documents with you?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, your
+                                    documents are safe with us. We make sure to treat each document with extra care and
+                                    confidentiality.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I put any documents in your app?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    are welcome to store any documents in the Habot app. It can be personal documents,
+                                    business, and work documents.</span></p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Referrals</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How does your referral policy works?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> We are
+                                    working to reward the referrals. When the referral policy is ready, it will be
+                                    shared with you.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How much is your referral bonus?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> We are
+                                    working to reward the referrals. When the referral policy is ready, it will be
+                                    shared with you.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How often Can I use my referral bonus?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Referral
+                                    bonus can be used once a month and cannot be combined with any other promotions or
+                                    offers.</span></p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Discount Codes</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How do I use your discount code?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Discount
+                                    code are special codes that will be sent to you when you qualify for the promotion.
+                                    You need to enter the code when purchasing or renewing your subscription on the
+                                    check out page. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What is discount code used for?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Discount codes are used for when purchasing or renewing your Habot subcription.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I use my referral bonus and discount code at
+                                the same time? </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No,
+                                    discount code cannot be combined with any other promotions/discounts.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there a limit when using the discount code?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Is there a
+                                    limit when using the discount code?. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How often can I use the discount codes?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Discount
+                                    codes can be used once a month. </span></p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Offers</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do you have special packages for long term
+                                customers?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, we
+                                    have a special offer for long term customers.
+                                    Please reach out to your assigned CSE for more info.</span> </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What special offers are available?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> We
+                                    currently are running promos for new customers and those with referrals.</span> </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I use your offer together with a discount
+                                code/referral bonus?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, offers
+                                    cannot be combined with any other promotions/discounts. </span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Trial version</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How long is your trial period?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> A Free
+                                    trial period for 30 days. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What's included in your trial period?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> A You have
+                                    full access to the Habot app during your free trial.</span> </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Are there limitations on access when using the
+                                trial period?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> None. There
+                                    are no limitations. You have full access to the Habot app.</span> </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> After my trial period and I don't renew, what
+                                happens to my documents?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> We will
+                                    store/keep your documents for the next 3 months. If you decide not to renew after 3
+                                    months,
+                                    documents will be removed and deleted from our system.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Shipping and Return</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How much is it to request for document shipping?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Document
+                                    shipping price depends on your subscribed plan and location.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do you accept request for fast delivery of
+                                documents?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> We can
+                                    request for fast/urgent delivery but that depends on the courier and pricing may
+                                    differ as well.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What if you shipped the wrong document, how do
+                                I return them?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> A You may
+                                    reach out to your assigned CSE for assistance.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Facing a request or query</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span>
+                                How can I contact your customer service if they are unavailable thru chat?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Live chat
+                                    representatives are available during UAE business hours.
+                                    You can also connect with your assigned customer service executive via
+                                    WhatsApp.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How long does it take before you reply to my
+                                query?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Our live
+                                    chat representatives are available to answer any queries during UAE business hours,
+                                    you can also reach out to them through WhatsApp.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How do I submit a service request through the
+                                app and the website?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Requests
+                                    can be submitted through the
+                                    live chat on your account and in your account on the website.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Customer Care</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What is your customer care hotline number?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> All help
+                                    will be only through our live chat. No hotline is provided. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How do I contact the customer service executive
+                                assigned to me?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> You can contact the Live Chat Assistant assigned to you through the Habot app and on your dashboard.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I contact the CSE assigned to me via
+                                WhatsApp and other means?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">Yes, Live Chat Assistants are also available via WhatsApp chat.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Live chat system available </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Live chat system available?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Live chat
+                                    system is a real-time customer assistance with support agents.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How does Live Chat system works?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Back and
+                                    forth conversations between the customers and support agents.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I share my files through live chat?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you can share documents/files to your CSE through live chat.</span> </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is Live Chat available 24/7?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Live chats
+                                    are available during UAE Business Hours.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Membership plans</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What membership plans are available?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Customers
+                                    are allowed to choose from our monthly subscription plan and annual subscription
+                                    plan.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What is a monthly plan and an annual plan?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Monthly
+                                    plan is a plan paid each month, while annual plan is a plan paid for a year.</span>
+                            </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What are the advantages of a monthly plan?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Monthly
+                                    plan is a short term subscription which allows you to test the service. </span> </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What are the advantages of an annual plan?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Annual plan
+                                    is a long term subscription
+                                    for users who wants to save more money and take advantage of our service for a
+                                    longer period of time.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Which currency accepting</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do you accept payments in US dollar?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, we
+                                    accept USD payments but exchange rate will differ.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do you accept payments in UAE dirhams?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes,
+                                    payments in UAE Dirhams are accepted.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What other currencies are available?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> You may pay
+                                    using any currecny but it will be converted to UAE Dirhams. </span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">If trial version is over, how long will my documents be kept?
+                        </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How long does a trial version last?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Trial
+                                    version is only for 30 days.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> If my subscription is lapsed, how long will you
+                                keep my files safely stored?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> We will
+                                    store/keep your documents for the next 3 months. If you decide not to renew after 3
+                                    months, documents will be removed and deleted from our system. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Will I be notified when my files are permanently
+                                deleted?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, you
+                                    will not be notified when your files are deleted. </span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Payment methods </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What payment methods Can I use to pay for my
+                                subscription?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> You may pay
+                                    using your credit and/or debit card.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do I have to link my payment details to my Habot
+                                account?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> You have
+                                    the option to link your payment details to your Habot account.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do you accept Paypal payments?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Payments
+                                    via PayPal are also accepted.</span> </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do you accept all kinds of card networks, such
+                                as visa, mastercard, etc.?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, we
+                                    accept all major credit cards for payment.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Payment confirmation</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How will I know if my payment is successful?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> An email
+                                    confirmation with the receipt will be sent to you after we have confirmed the
+                                    receipt of the payment. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do you issue purchase receipt?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, an
+                                    official receipt will be issued and sent to you via email. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What do I do if I don't get payment confirmation
+                                notification?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> If you
+                                    don't receive a payment confirmation notification, you may reach out to your
+                                    assigned CSE or contact us through the live chat assistant.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">What are the Policies we are using</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What is Habot data privacy policy?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> They are
+                                    separately shown on the website. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What is Habot discount policy?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Discounts
+                                    are offered from time to time on special occassions not regularly. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What is Habot refund policy?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No refunds
+                                    are allowed once you pay the subscription until the subscription period ends.
+                                </span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">How to cancel the plan</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I cancel my plan in the middle of
+                                subscription?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    are allowed to cancel your subscription anytime.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How do I cancel my subscription?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">
+                                    Cancellation button on the dashboard is available. (manage subscription button>
+                                    cancellation)</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> If I cancel my plan in the middle of my
+                                contract, will I get a refund for the remaining term?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, we do
+                                    not issue any refund. </span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">How to change the plan</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there an option for changing my subscription
+                                plan?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    can upgrade your subscription plan any time.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do I lose my previous subscription amount upon
+                                changing my plan?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, the
+                                    amount will be used for changing subscription. Calculation will be done on pro-rata
+                                    basis</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What are the benefits of upgrading my
+                                subscription plan?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Different
+                                    plans have their benefits.Another advantage is you will get a dedicated
+                                    assistant.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">How to set up the same account in different devices </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can Habot work in multiple operating systems?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, Habot
+                                    can be used in multiple Operating systems. Mac OS, Windows,Chrome, Linux, Andriod,
+                                    etc.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do I lose my user account if I set up on a
+                                different device?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, you
+                                    will not lose your account.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Does Habot support all types of devices?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, the
+                                    Habot app is compatible to all types of android and ios devices.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Security</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How secure are my documents in Habot?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Habot has a
+                                    2-step verification process for your password in order to keep your account and
+                                    documents secure.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do the different plans have different types of
+                                security features?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">No, each
+                                    subscription plan has the same security features.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What avenue does Habot store documents?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">
+                                    Habot is a cloud based app, and we also store your documents in designated data
+                                    centers.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">2 Step authentication </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How secure is my password?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> The
+                                    security of your password will depend upon the user discretion. We also offer
+                                    auto-generated password which will be strong and only known by you.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Does Habot allow 2-step verification on
+                                password?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, the
+                                    Habot has 2-step verification process in order to keep your account secure.</span>
+                            </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What if I do not remember passcodes for the
+                                2-step verification?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> We also
+                                    have a set of questions that you will need to answer when subscribing to Habot. Upon
+                                    loosing your 2-step verification pass code,
+                                    these questions will be asked to verify if you are the true user.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Time taken for the delivery of the document </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How much time is needed to get my documents
+                                delivered to me?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Document
+                                    delivery will depend on the distance to which it is supposed to be delivered to.
+                                    Also, there is a
+                                    priority for those who pay extra for faster delivery.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do I need to pay for the courier fee?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> It will
+                                    depend upon which subscription plan you have
+                                    taken and also the urgency of the delivery.</span></p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">How to recover password and login details </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How do I recover my lost password?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> There is an
+                                    option for password recovery on the log in page of Habot. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I generate a new password if I lose my
+                                password?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    can generate a new password. You will have to undergo various verification process
+                                    in order to get a new password.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there an option for password reminders?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">  No,
+                                for security purposes, you will not be getting pop ups for password reminders.</span></p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">How to redeem the referral </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How many referral points will I need in order to
+                                redeem them?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> We are
+                                    working to reward the referrals. When the referral policy is ready, it will be
+                                    shared with you.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I convert my referral points into cash?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No,
+                                    referral points can only be used for subscription renewal.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can my referral points be used for renewing
+                                subscription?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    can use your referral points for the next subscription.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">How to deactivate the account </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How do I deactivate my account?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> There is an
+                                    option in the setting on how to deactivate your account.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What happens to my documents after deactivation
+                                of my account?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Upon
+                                    deactivating your account, all your documents will be parmanently deleted from our
+                                    systems.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Are there any charges for account deactivation?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">
+                                    Deactivating your account is free of charge.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Is there any document storage that this much document I can
+                            store</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there any limit for document storage?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, there
+                                    is no document storage limit.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How much is the document storage limit?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Habot
+                                    provides unlimited storage.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there any limit for uploading documents at a
+                                time?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, you can
+                                    upload documents against the checklist as well as more documents related to the
+                                    purpose of your subscription plan. </span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Types of document I can upload</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What are the types of documents that can be
+                                uploaded?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> You can
+                                    upload the following documents types: pdf,xls,jpg,png,doc</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I change the format of the document once
+                                uploaded?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> All
+                                    documents are converted to PDF once uploaded. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How many types of documents are allowed to
+                                upload?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Documents
+                                    types that are allowed to be uploaded are pdf,xls,jpg,png,doc.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">How many people can access the credentials </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can the credentials be used by multiple number
+                                of people?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes,
+                                    multiple devices are allowed to be logged in and manage the account.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How many people can access my account?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">You, your
+                                    dedicated live chat assistant, and Habot admin can access your account. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Will the credentials be auto filled or I have to
+                                fill it every time I log in?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Either of
+                                    the two, you can choose your own preference based on the device your are
+                                    using.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Privacy for bank details</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there any privacy policy for my bank account
+                                details?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> We are not
+                                    collecting bank account details from the customers. Your credit/debit card details
+                                    will be held in safe custody under data privacy rules. </span></p>
+                        </div>
+
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Compatibity of device type</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there any device specifications required to
+                                access Habot on desktop?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, Habot
+                                    is accessible on any desktop.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there any device specifications required to
+                                access Habot on mobile?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> All android
+                                    and ios mobile devices are compatible with the Habot.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I access my documents saved on Habot
+                                offline?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, all
+                                    documents are in the cloud. You cannot access your documents offline, however, you
+                                    may download it to have offline access. </span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Limit of device type</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there any device limit?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, as long
+                                    as it is an android and ios device.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is Habot available for both mobile and desktop?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, the
+                                    Habot is available for both mobile and desktop.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I log into multiple devices at the same
+                                time?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    can log in to your mobile app and desktop at the same time.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">How can I check my history</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I check the documents upload history?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    can see the uploaded documents at any time.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How can I check my purchase history?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> There is a
+                                    purchase history page wherein you can check your previous transactions.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I check the history of queries I raised?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    can have the access to see the previous queries.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Uploading file size limit </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What is the size limit I can upload the
+                                documents?
+
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> There is no
+                                    restriction on the kind or size of the document.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What is the minimum size of a file I can upload?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> There is no
+                                    restriction on the kind or size of the document. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What is the storage capacity of the document?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">
+                                    The storage capacity of the document is unlimited.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Can I recover deleted documents</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How can I recover my deleted documents?</p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> To recover the deleted documents, you can request support from Chat.
+                                </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there any time limit to recovering the
+                                deleted documents ?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Lorem Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there any backup for the documents?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Lorem Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Can I upload bulk documents</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I upload multiple documents at the same
+                                time?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    can upload multiple documents at the same time.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there any limit on document storage?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> There is no
+                                    limit to document storage capacity.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there any particular size required when
+                                uploading the documents?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, there
+                                    is no particular size requirement for uploading the documents.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">How to download the documents </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I save the downloaded documents in the Habot
+                                app?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    can save your downloaded documents in the Habot app.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can the format of the documents be changed while
+                                downloading?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, the
+                                    format of the documents cannot be changed while downloading.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How can I download the documents using the Habot
+                                app?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">
+                                There is a download option/ icon wherein it will allow you to download the document.</span></p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Can I email the document</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I use the Habot app to email the documents
+                                to multiple people?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, there
+                                    is an option to share your documents.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I email multiple documents together?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    can email multiple documents together.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there a particular size of the email for
+                                sending the documents altogether?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No there is
+                                    no restriction on a particular size of the email for sending the documents
+                                    altogether.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Can I share the document </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there a limit to the number of documents I
+                                can share at a go?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, there
+                                    is no limit to the number of documents I can share at a go.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I share/upload in any format?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> You can
+                                    share/upload any documents in any format (pdf,xls,jpg,png,doc) but it will be
+                                    converted to pdf automatically. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I share the documents in the Habot app to
+                                other apps?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> You can
+                                    share any documents to other apps by downloading the document on your
+                                    phone/laptop.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Can I download the document </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I choose a format for downloading my
+                                documents?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> All
+                                    documents are converted to PDF once uploaded. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Are there any restrictions on downloading a
+                                document?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, there
+                                    is no restriction on downloading the document.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Will I have edit access to documents I have
+                                downloaded?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Editing the
+                                    document is entirely your choice and Habot takes no responsibility for the contents
+                                    of the documents and its alteration.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Reminder and notifications for documents expiry </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Where can I get all the notifications on the
+                                Habot app?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">
+                                    Notifications are sent through the Habot app (notification bar on your
+                                    phone).</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Will I get a notification for the documents
+                                expiry?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    will get a notification for the documents expiry.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I set reminder and notification for
+                                documents expiry in Habot app ?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, there
+                                    is a feature wherein you can get notified for your documents that has an expiry
+                                    date.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Renewal reminders</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> How will I get the renewal reminders?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> You will
+                                    get the renewal reminder via email and call.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is the renewal reminder sent every day?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, renewal
+                                    reminders are sent 90 days, 60 days and 30 days before document expiraton due
+                                    date.</span></p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Can I access documents after the subscription expires</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there a grace period to access my documents
+                                after the subscription has expired?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> We will
+                                    store/keep your documents for the next 3 months. If you decide not to
+                                    renew after 3 months, documents will be removed and deleted from our system. </span>
+                            </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there a penalty cost for late renewal after
+                                the subscription has expired?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, the
+                                    only cost you'll pay is for the subscription itself.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can one still access their documents even if the
+                                subscription has expired?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, one has
+                                    to renew their subscription to access their documents.</span> </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What happens with my documents if I wish not to
+                                renew my subscription after expiry?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> We will
+                                    store/keep your documents for the next 3 months.
+                                    If you decide not to renew after 3 months, documents will be removed and deleted
+                                    from our system. </span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">The document supporting for offline access</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What Habot features are limited when offline?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No features
+                                    are accessible offline. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I edit my documents offline?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, offline
+                                    features are not available.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I share my documents offline?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, offline
+                                    features are not available.</span> </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there a package that allows for offline use
+                                of all the functions of the app?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> None,
+                                    offline features are not available.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Type of file I can upload </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What is the size limit to the files I can
+                                upload?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> There is no
+                                    restriction on the kind or
+                                    size of files that may be uploaded in the app. All files are recognized and there
+                                    are no maximum limitations.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What file type can be uploaded on the Habot
+                                app?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> There is no
+                                    restriction on the kind or size of files that may be uploaded in the app.
+                                    All files are recognized and there are no maximum limitations.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I share my documents offline?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary">Any file
+                                    type or size can be shared with other individuals.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Can mobile phone or camera be used in the time of upload of the
+                            documents </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I take a photo of the document and upload
+                                it?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    can upload photos of documents.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> What devices can I use to record the
+                                documents?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Any device
+                                    you have downloaded the app on or scanner or camera can record the document.</span>
+                            </p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Are photos from all version of phones accepted?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, photos
+                                    taken by any type of phone can be uploaded.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">How many people can I refer?</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there a limit of the number of people I can
+                                refer?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, one can
+                                    refer as many clients as possible.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there a limit to the number of times I can
+                                share the referral codes?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, one can
+                                    share the referral code as much as possible.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is there a limit to the referral points I can
+                                get?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, you'll
+                                    get as many referral points as the referrers who'll subscribe.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">Do we need credit card info during sign</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do I need an email address to sign in?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    need an email address to sign in. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Q Can I change my password at anytime?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, you
+                                    can change the password at anytime.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Is credit card information required to sign into
+                                the app?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No,
+                                    credit card information isn't required to sign up.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> After signing in, is there a 2-step verification
+                                to keep my account safe?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, there
+                                    is a 2-step verification for keeping your account safe.</span></p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">If the one person has to open multiple accounts</summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I open multiple accounts at once?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> You can
+                                    open multiple accounts with diff email IDs and phone number. </span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I use the discounts provided on more than
+                                one account?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No,
+                                    discounts can only be used under the primary account.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can I open more than one account but from
+                                different packages?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> You can
+                                    open multiple accounts with diff packages as long as the email IDs and phone numbers
+                                    are different. </span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">How many languages I can access</summary>
+                        <div class="details-content">
+                            <p ><span class="summary__question">Q</span> Is there a language restriction for uploading
+                                documents?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, you can
+                                    upload documents that are in any language.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Can my documents be translated for an execution?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, the
+                                    document can be translated at a fee.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Do you charge extra to store documents that
+                                aren't in english?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, there
+                                    isn't any extra charge related to document language.</span> </p>
+                        </div>
+                    </details>
+                    <hr>
+                    <!--  -->
+                    <!--  -->
+                    <details>
+                        <summary class="summary__title">How will the customer get notified with the on going promotional
+                            offers </summary>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Will I get an email notification telling me of
+                                the offers?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, an
+                                    email will be sent to the registered email address notifying you of any important
+                                    emails.</span></p>
+                        </div>
+                        <div class="details-content">
+                            <p><span class="summary__question">Q</span> Which email address will I receive the offers
+                                under?
+
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> Yes, an
+                                    email will be sent to the registered email address notifying you of any important
+                                    emails.</span></p>
+                        </div>
+                        <div   class="details-content">
+                            <p><span class="summary__question">Q</span> Can I use an offer after it's expiry period?
+                            </p>
+                            <p><span class="summary__answer">A</span> <span class="summary__answer-primary"> No, an
+                                    offer cannot be used after the stated expiry period.</span> </p>
+                        </div>
+                    </details>
+                
+            </section>
+            <!--  -->
+            <div class="container">
+                <div class="row footer footer__div">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="https://storage.googleapis.com/varal-habot-vault-27012022/landing/img/logo.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&amp;X-Goog-Credential=varal-habot-vault-19012021%40appspot.gserviceaccount.com%2F20220622%2Fauto%2Fstorage%2Fgoog4_request&amp;X-Goog-Date=20220622T042318Z&amp;X-Goog-Expires=86400&amp;X-Goog-SignedHeaders=host&amp;X-Goog-Signature=18383839139fd18ef45b397e3e8bb6974fabd60b0be1754b340fefc02d9396b522d795440eb85db4cca432b4009c94b334a89690e4c7b0d49365af82a35ec2fa3304ac3b4fbc8c35a59957791ce9f33b37ac4f988791bd316cee536ccd6b3f2f55192e4dba3fff424b10a242b55c49c94b1dafbb7a3b68331a4c541e1e74dcc070615d5165fb655c003a6722067c5600e02e407472922c681a8153ab9df40d944dd3684810cf553691965ae95527b1937a926a54f8dbb6f9e9c292485598fd856053197105a20d85ca94a40797bd686ba47c353aa5ed8427e5447135c8da5585a872b4457457002e8308d47c53fda768249c42736d26b0765408045208bc2822"
+                            class="varalLogo" alt="" />
+                        <p>
+                            Varal started registering Seychelles offshore companies from
+                            March 16, 2010. Ras Al Khaimah offshore was added subsequently
+                            in October 2010. Registration of UAE companies in free zones and
+                            nominee services commenced in 2011.
+                        </p>
+                        <div class="socials">
+                            <img src="https://storage.googleapis.com/varal-habot-vault-27012022/landing/img/facebook.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&amp;X-Goog-Credential=varal-habot-vault-19012021%40appspot.gserviceaccount.com%2F20220622%2Fauto%2Fstorage%2Fgoog4_request&amp;X-Goog-Date=20220622T042318Z&amp;X-Goog-Expires=86400&amp;X-Goog-SignedHeaders=host&amp;X-Goog-Signature=6614dd04f3081b93109a56f2000b41a7e7971373e9499f4813fa72f8270c37703b90ec1a4bb677910709631f94cd82c33e05b935c2a47d262c4835e80162630a49243a33738ddbd82e815c3b7e021f2266a50b28944aa8848fe9a01735be5a81d913bf5a4c5762cf2f433e280702da563673c86f1e2ce64dbe2251198dc9ae2713e20df32844762c00f8748df9e42e1e77aaac3f288baed5db9ffe4c2384bb10378930379560be0719238db44497fb123398f2a0ebde69eb3032af03e0c296570f14c9331b4489f0daf93bc65e77187a2560d26f8ed4524b53d666d4fd734f409c7e2c898f509d8e9c3a6bafc9c4481b3eb748ef001d081e4c03eb2ac0992363"
+                                alt="" />
+                            <img src="https://storage.googleapis.com/varal-habot-vault-27012022/landing/img/twitter.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&amp;X-Goog-Credential=varal-habot-vault-19012021%40appspot.gserviceaccount.com%2F20220622%2Fauto%2Fstorage%2Fgoog4_request&amp;X-Goog-Date=20220622T042318Z&amp;X-Goog-Expires=86400&amp;X-Goog-SignedHeaders=host&amp;X-Goog-Signature=06b0a251c27e8ee3a5d5cd0009b939c04de228d21357c140b1eaa4d9760cdd4a2b2d75f389a98e8ece52e4a89f030f6c4c9928fec88742b7ae5757dc3e38041b188ef57c9d3649b23fa723ac7be88004f708f43bb4dcfb4d016e074f4e071bb02e6298e0f6768b38e035046d5105eaa73a0a242843739fe915d2468df933ff62d2f8aa3659bc622db590fd5a7fda912227484f1faa3fcfa627986081c14194258375ec6c3827ff81b0159fec336bf0b92162e855233413291d1313a2840cd0571d33dfe7ced6a97506a62e6cb80047ea52c6eb04ca4ed73780d43c0eefda6ef863d913b6269cd4cf3199d3a2c45fd4fef6a397377ef8a3d9bd99c27a2f4744e0"
+                                alt="" />
+                            <img src="https://storage.googleapis.com/varal-habot-vault-27012022/landing/img/linkedin.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&amp;X-Goog-Credential=varal-habot-vault-19012021%40appspot.gserviceaccount.com%2F20220622%2Fauto%2Fstorage%2Fgoog4_request&amp;X-Goog-Date=20220622T042318Z&amp;X-Goog-Expires=86400&amp;X-Goog-SignedHeaders=host&amp;X-Goog-Signature=0fe3f4f2400ad06a9b08fff24c2161a022e9def456537435cbb80479970485af84ef35097c563873b5ee372b6be0cb18c73283e2bd8035bf380a88325f3f07ff260b1aadeda45337c2f08a55f7dd74108d8a1aaf7f61e134e15d37699e5f0e456018c2c5625cc097fecdad154a593a889334f336cd2077413c95d3c74fa87b9492c21ff75e738bd4e6953445a85773682c4899a86d52767c56ac3d8a02d802e2521fe00887fba103d0ca1de569aa7742a73a98db717a1a7700ad0c6f63b4804852b92a32695b60fbd42ffd7ed24f31dee56b4bb08b19d69a8708e2a64b76e6e66fa2d83421a605734f61669e05ec2751127fc214bb025ba5fc898610391dfad6"
+                                alt="" />
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-2 mt-4 lh2 offset-lg-2">
+                        <h5><b>Policies</b></h5>
+                        <a>Refund Policy</a>
+                        <br />
+                        <a>Terms & conditions</a>
+                        <br />
+                        <a>Data privacy</a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-2 mt-4 lh2">
+                        <h5><b>About</b></h5>
+                        <a>About us</a>
+                        <br />
+                        <a>Contact us</a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-2 mt-4 lh2">
+                        <h5><b>Address</b></h5>
+                        <div class="d-flex" style="min-width: 200px">
+                            <b>Licensed by</b>
+                            <img class="dmcc-img"
+                                src="https://storage.googleapis.com/varal-habot-vault-27012022/landing/img/dmcc.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&amp;X-Goog-Credential=varal-habot-vault-19012021%40appspot.gserviceaccount.com%2F20220622%2Fauto%2Fstorage%2Fgoog4_request&amp;X-Goog-Date=20220622T042318Z&amp;X-Goog-Expires=86400&amp;X-Goog-SignedHeaders=host&amp;X-Goog-Signature=056ed1261d83a34010d8f9311e0fb34a351879ce5e6f5cb944e3fb80b6fdce440b3e6918c3a19ad331ecd4c4f2690e76cbf2b05f23ec52eed2be9dff3cb34a326de1a0bf9001c27408a65d0e2fce04dd53d65fa8bfb1568f9f5a02ca45c50ebcef158f6b1cd728b59d91ab96a4e05608d7df7bca4695ca44ec08e48eea4ea92cef5e951a0d75af251765a1f95969acd3a1ef4d4a4b42795f59d72a31024c339f31c2676d43554ae14b8fc3eeaa3f223ee2fa0886adddedbc2c96460ded0c922e1d3b3b5493e7e35a91a82f1b4d5b4f532c0137d8519b6760e81bdb802b5e01bd16750d0354313c003244f09d0f25bfd882398a1ebf718cde0cff96054d384cab"
+                                alt="" />
+                        </div>
+                        <a>
+                            One Lake Plaza - 608 - Cluster T - Dubai - United Arab Emirates
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </body>
+    <script src="./assets/js/FAQ.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>

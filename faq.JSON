@@ -1,0 +1,793 @@
+[
+  {
+    "id": "q-1",
+    "q": "Aside from credit/debit card payment, what other payment methods are available?",
+    "a": " For the time being, you can pay using your credit/debit card."
+  },
+  {
+    "id": "q-2",
+    "q": "Can I use PayPal to pay for my subscription?",
+    "a": " We do not accept PayPal payments. You can pay using credit/debit card."
+  },
+  {
+    "id": "q-3",
+    "q": "Do I get a refund when I cancel my subscription before the month ends?",
+    "a": " No, we do not issue refunds."
+  },
+  {
+    "id": "q-4",
+    "q": " Do you require credit card payment before subscribing to your services?",
+    "a": "No, credit card payments are required once you decide to continue your subscription after your free trial."
+  },
+  {
+    "id": "q-5",
+    "q": "What services do you offer?",
+    "a": "Habot app offers document storage, providing list of requirements to live, work, and do business in the UAE, providing notification reminders before document expiry, and other services client will request."
+  },
+  {
+    "id": "q-6",
+    "q": "What does your app do?",
+    "a": " Habot app keep your documents that require you to live, work, and do business in the UAE in one place so it will be easier for you to apply to institutuions."
+  },
+  {
+    "id": "q-7",
+    "q": "Can I use your service for my business?",
+    "a": "yes, you can use Habot app for business use. You may check our plan called 'Do Business in the UAE'."
+  },
+  {
+    "id": "q-8",
+    "q": " Is it safe to store my documents with you?",
+    "a": "Yes, your documents are safe with us. We make sure to treat each document with extra care and confidentiality."
+  },
+  {
+    "id": "q-9",
+    "q": "Can I put any documents in your app?",
+    "a": "Yes, you are welcome to store any documents in the Habot app. It can be personal documents, business, and work documents."
+  },
+  {
+    "id": "q-10",
+    "q": "How does your referral policy works?",
+    "a": "We are working to reward the referrals. When the referral policy is ready, it will be shared with you."
+  },
+  {
+    "id": "q-11",
+    "q": "How much is your referral bonus?",
+    "a": "We are working to reward the referrals. When the referral policy is ready, it will be shared with you."
+  },
+  {
+    "id": "q-12",
+    "q": "How often can I use my referral bonus?",
+    "a": "Referral bonus can be used once a month and cannot be combined with any other promotions or offers."
+  },
+  {
+    "id": "q-13",
+    "q": "How do I use your discount code?",
+    "a": "Discount code are special codes that will be sent to you when you qualify for the promotion. You need to enter the code when purchasing or renewing your subscription on the check out page."
+  },
+  {
+    "id": "q-14",
+    "q": "What is discount code used for?",
+    "a": "Discount codes are used for when purchasing or renewing your Habot subcription."
+  },
+  {
+    "id": "q-15",
+    "q": "Can I use my referral bonus and discount code at the same time?",
+    "a": "No, discount code cannot be combined with any other promotions/discounts."
+  },
+  {
+    "id": "q-16",
+    "q": " Is there a limit when using the discount code?",
+    "a": "Is there a limit when using the discount code?."
+  },
+  {
+    "id": "q-17",
+    "q": " How often can I use the discount codes?",
+    "a": "Discount codes can be used once a month.."
+  },
+  {
+    "id": "q-18",
+    "q": " Do you have special packages for long term customers?",
+    "a": "Yes, we have a special offer for long term customers. Please reach out to your assigned CSE for more info."
+  },
+  {
+    "id": "q-19",
+    "q": " What special offers are available?",
+    "a": "We currently are running promos for new customers and those with referrals."
+  },
+  {
+    "id": "q-20",
+    "q": " Can I use your offer together with a discount code/referral bonus?",
+    "a": "No, offers cannot be combined with any other promotions/discounts."
+  },
+  {
+    "id": "q-21",
+    "q": " How long is your trial period?",
+    "a": "A Free trial period for 30 days."
+  },
+  {
+    "id": "q-22",
+    "q": " What's included in your trial period?",
+    "a": " A You have full access to the Habot app during your free trial."
+  },
+  {
+    "id": "q-23",
+    "q": " Are there limitations on access when using the trial period?",
+    "a": " None. There are no limitations. You have full access to the Habot app."
+  },
+  {
+    "id": "q-24",
+    "q": " After my trial period and I don't renew, what happens to my documents?",
+    "a": " A We will store/keep your documents for the next 3 months. If you decide not to renew after 3 months, documents will be removed and deleted from our system."
+  },
+  {
+    "id": "q-25",
+    "q": " How much is it to request for document shipping?",
+    "a": " Document shipping price depends on your subscribed plan and location."
+  },
+  {
+    "id": "q-26",
+    "q": " Do you accept request for fast delivery of documents?",
+    "a": "We can request for fast/urgent delivery but that depends on the courier and pricing may differ as well."
+  },
+  {
+    "id": "q-27",
+    "q": "  What if you shipped the wrong document, how do I return them?",
+    "a": "A You may reach out to your assigned CSE for assistance."
+  },
+  {
+    "id": "q-28",
+    "q": "   How can I contact your customer service if they are unavailable thru chat?",
+    "a": "Live chat representatives are available during UAE business hours. You can also connect with your assigned customer service executive via WhatsApp."
+  },
+  {
+    "id": "q-29",
+    "q": "  How long does it take before you reply to my query?",
+    "a": " Our live chat representatives are available to answer any queries during UAE business hours, you can also reach out to them through WhatsApp."
+  },
+  {
+    "id": "q-30",
+    "q": " How do I submit a service request through the app and the website?",
+    "a": " Requests can be submitted through the live chat on your account and in your account on the website."
+  },
+  {
+    "id": "q-31",
+    "q": " What is your customer care hotline number?    ",
+    "a": " All help will be only through our live chat. No hotline is provided."
+  },
+  {
+    "id": "q-32",
+    "q": "How do I contact the customer service executive assigned to me?",
+    "a": "You can contact the customer service executive assigned to you through the Habot app and on your dashboard."
+  },
+  {
+    "id": "q-33",
+    "q": " Can I contact the CSE assigned to me via WhatsApp and other means?",
+    "a": " Yes, CSEs are also available via WhatsApp chat."
+  },
+  {
+    "id": "q-34",
+    "q": "Live chat system available?",
+    "a": "Live chat system is a real-time customer assistance with support agents."
+  },
+  {
+    "id": "q-35",
+    "q": "How does Live Chat system works?",
+    "a": "Back and forth conversations between the customers and support agents."
+  },
+  {
+    "id": "q-36",
+    "q": "Can I share my files through live chat?",
+    "a": "Yes, you can share documents/files to your CSE through live chat."
+  },
+  {
+    "id": "q-37",
+    "q": "Is Live Chat available 24/7?",
+    "a": " Live chats are available during UAE Business Hours."
+  },
+  {
+    "id": "q-38",
+    "q": "What membership plans are available?",
+    "a": "Customers are allowed to choose from our monthly subscription plan and annual subscription plan."
+  },
+  {
+    "id": "q-39",
+    "q": " What is a monthly plan and an annual plan?",
+    "a": "Monthly plan is a plan paid each month, while annual plan is a plan paid for a year."
+  },
+  {
+    "id": "q-40",
+    "q": " What are the advantages of a monthly plan?",
+    "a": "Monthly plan is a short term subscription which allows you to test the service."
+  },
+  {
+    "id": "q-41",
+    "q": " What are the advantages of an annual plan?",
+    "a": "Annual plan is a long term subscription for users who wants to save more money and take advantage of our service for a longer period of time."
+  },
+  {
+    "id": "q-42",
+    "q": "Do you accept payments in US dollar?",
+    "a": "Yes, we accept USD payments but exchange rate will differ."
+  },
+  {
+    "id": "q-43",
+    "q": "Do you accept payments in UAE dirhams?",
+    "a": "Yes, payments in UAE Dirhams are accepted."
+  },
+  {
+    "id": "q-44",
+    "q": " What other currencies are available?",
+    "a": " You may pay using any currecny but it will be converted to UAE Dirhams."
+  },
+  {
+    "id": "q-45",
+    "q": " How long does a trial version last?",
+    "a": "Trial version is only for 30 days."
+  },
+  {
+    "id": "q-46",
+    "q": " If my subscription is lapsed, how long will you keep my files safely stored?",
+    "a": "We will store/keep your documents for the next 3 months. If you decide not to renew after 3 months, documents will be removed and deleted from our system."
+  },
+  {
+    "id": "q-47",
+    "q": " Will I be notified when my files are permanently deleted?",
+    "a": "No, you will not be notified when your files are deleted."
+  },
+  {
+    "id": "q-48",
+    "q": " What payment methods can I use to pay for my subscription?",
+    "a": "You may pay using your credit and/or debit card."
+  },
+  {
+    "id": "q-49",
+    "q": " Do I have to link my payment details to my Habot account?",
+    "a": "You have the option to link your payment details to your Habot account."
+  },
+  {
+    "id": "q-50",
+    "q": " Do you accept Paypal payments?",
+    "a": " Payments via PayPal are also accepted."
+  },
+  {
+    "id": "q-51",
+    "q": " Do you accept all kinds of card networks, such as visa, mastercard, etc.?",
+    "a": "Yes, we accept all major credit cards for payment."
+  },
+  {
+    "id": "q-52",
+    "q": "How will I know if my payment is successful?",
+    "a": "An email confirmation with the receipt will be sent to you after we have confirmed the receipt of the payment."
+  },
+  {
+    "id": "q-53",
+    "q": "Do you issue purchase receipt?",
+    "a": "Yes, an official receipt will be issued and sent to you via email."
+  },
+  {
+    "id": "q-54",
+    "q": "What do I do if I don't get payment confirmation notification?",
+    "a": "If you don't receive a payment confirmation notification, you may reach out to your assigned CSE or contact us through the live chat assistant."
+  },
+  {
+    "id": "q-55",
+    "q": " What is Habot data privacy policy?",
+    "a": "They are separately shown on the website."
+  },
+  {
+    "id": "q-56",
+    "q": " What is Habot discount policy?",
+    "a": "Discounts are offered from time to time on special occassions not regularly."
+  },
+  {
+    "id": "q-57",
+    "q": " What is Habot refund policy?",
+    "a": "No refunds are allowed once you pay the subscription until the subscription period ends."
+  },
+  {
+    "id": "q-58",
+    "q": " Can I cancel my plan in the middle of subscription?",
+    "a": "Yes, you are allowed to cancel your subscription anytime."
+  },
+  {
+    "id": "q-59",
+    "q": " How do I cancel my subscription?",
+    "a": "Cancellation button on the dashboard is available. (manage subscription button> cancellation)"
+  },
+  {
+    "id": "q-60",
+    "q": "  If I cancel my plan in the middle of my contract, will I get a refund for the remaining term?",
+    "a": "No, we do not issue any refund."
+  },
+  {
+    "id": "q-61",
+    "q": "Is there an option for changing my subscription plan?",
+    "a": "Yes, you can upgrade your subscription plan any time."
+  },
+  {
+    "id": "q-62",
+    "q": "Do I lose my previous subscription amount upon changing my plan?",
+    "a": "No, the amount will be used for changing subscription. Calculation will be done on pro-rata basis"
+  },
+  {
+    "id": "q-63",
+    "q": "What are the benefits of upgrading my subscription plan?",
+    "a": " Different plans have their benefits.Another advantage is you will get a dedicated assistant."
+  },
+  {
+    "id": "q-64",
+    "q": "Can Habot work in multiple operating systems?",
+    "a": " Yes, Habot can be used in multiple Operating systems. Mac OS, Windows,Chrome, Linux, Andriod, etc."
+  },
+  {
+    "id": "q-65",
+    "q": " Do I lose my user account if I set up on a different device?",
+    "a": "No, you will not lose your account."
+  },
+  {
+    "id": "q-66",
+    "q": "Does Habot support all types of devices?",
+    "a": " Yes, the Habot app is compatible to all types of android and ios devices."
+  },
+  {
+    "id": "q-67",
+    "q": "How secure are my documents in Habot?",
+    "a": " Habot has a 2-step verification process for your password in order to keep your account and documents secure."
+  },
+  {
+    "id": "q-68",
+    "q": " Do the different plans have different types of security features?",
+    "a": " No, each subscription plan has the same security features."
+  },
+  {
+    "id": "q-69",
+    "q": "  What avenue does Habot store documents? ",
+    "a": "Habot is a cloud based app, and we also store your documents in designated data centers."
+  },
+  {
+    "id": "q-70",
+    "q": "How secure is my password?",
+    "a": "The security of your password will depend upon the user discretion. We also offer auto-generated password which will be strong and only known by you."
+  },
+  {
+    "id": "q-71",
+    "q": "Does Habot allow 2-step verification on password?",
+    "a": "Yes, the Habot has 2-step verification process in order to keep your account secure."
+  },
+  {
+    "id": "q-72",
+    "q": " What if I do not remember passcodes for the 2-step verification?",
+    "a": "We also have a set of questions that you will need to answer when subscribing to Habot. Upon loosing your 2-step verification pass code, these questions will be asked to verify if you are the true user."
+  },
+  {
+    "id": "q-73",
+    "q": " How much time is needed to get my documents delivered to me?",
+    "a": " Document delivery will depend on the distance to which it is supposed to be delivered to. Also, there is a priority for those who pay extra for faster delivery."
+  },
+  {
+    "id": "q-74",
+    "q": " Do I need to pay for the courier fee?",
+    "a": " It will depend upon which subscription plan you have taken and also the urgency of the delivery."
+  },
+  {
+    "id": "q-75",
+    "q": " How do I recover my lost password?",
+    "a": "There is an option for password recovery on the log in page of Habot."
+  },
+  {
+    "id": "q-76",
+    "q": " Can I generate a new password if I lose my password?",
+    "a": "Yes, you can generate a new password. You will have to undergo various verification process in order to get a new password."
+  },
+  {
+    "id": "q-77",
+    "q": " Is there an option for password reminders?",
+    "a": "No, for security purposes, you will not be getting pop ups for password reminders."
+  },
+  {
+    "id": "q-78",
+    "q": "How many referral points will I need in order to redeem them?",
+    "a": "We are working to reward the referrals. When the referral policy is ready, it will be shared with you."
+  },
+  {
+    "id": "q-79",
+    "q": "Can I convert my referral points into cash?",
+    "a": "No, referral points can only be used for subscription renewal."
+  },
+  {
+    "id": "q-80",
+    "q": "Can my referral points be used for renewing subscription?",
+    "a": "Yes, you can use your referral points for the next subscription."
+  },
+  {
+    "id": "q-81",
+    "q": "How do I deactivate my account?",
+    "a": "There is an option in the setting on how to deactivate your account."
+  },
+  {
+    "id": "q-82",
+    "q": "What happens to my documents after deactivation of my account?",
+    "a": "Upon deactivating your account, all your documents will be parmanently deleted from our systems."
+  },
+  {
+    "id": "q-83",
+    "q": "Are there any charges for account deactivation?",
+    "a": "Deactivating your account is free of charge."
+  },
+  {
+    "id": "q-84",
+    "q": "Is there any limit for document storage?",
+    "a": " No, there is no document storage limit."
+  },
+  {
+    "id": "q-85",
+    "q": "How much is the document storage limit?",
+    "a": " Habot provides unlimited storage."
+  },
+  {
+    "id": "q-86",
+    "q": "Is there any limit for uploading documents at a time?",
+    "a": " No, you can upload documents against the checklist as well as more documents related to the purpose of your subscription plan."
+  },
+  {
+    "id": "q-87",
+    "q": "What are the types of documents that can be uploaded?",
+    "a": " No, you can upload documents against the checklist as well as more documents related to the purpose of your subscription plan."
+  },
+  {
+    "id": "q-88",
+    "q": "Can I change the format of the document once uploaded?",
+    "a": "All documents are converted to PDF once uploaded."
+  },
+  {
+    "id": "q-89",
+    "q": "How many types of documents are allowed to upload?",
+    "a": "Documents types that are allowed to be uploaded are pdf,xls,jpg,png,doc."
+  },
+  {
+    "id": "q-90",
+    "q": "Can the credentials be used by multiple number of people?",
+    "a": " Yes, multiple devices are allowed to be logged in and manage the account."
+  },
+  {
+    "id": "q-91",
+    "q": "How many people can access my account?",
+    "a": "You, your dedicated live chat assistant, and Habot admin can access your account."
+  },
+  {
+    "id": "q-92",
+    "q": "Will the credentials be auto filled or I have to fill it every time I log in?",
+    "a": " Either of the two, you can choose your own preference based on the device your are using."
+  },
+  {
+    "id": "q-93",
+    "q": " Is there any privacy policy for my bank account details?",
+    "a": " We are not collecting bank account details from the customers. Your credit/debit card details will be held in safe custody under data privacy rules."
+  },
+
+  {
+    "id": "q-94",
+    "q": "  Is there any device specifications required to access Habot on desktop?",
+    "a": " No, Habot is accessible on any desktop."
+  },
+  {
+    "id": "q-95",
+    "q": " Is there any device specifications required to access Habot on mobile?",
+    "a": "All android and ios mobile devices are compatible with the Habot."
+  },
+  {
+    "id": "q-96",
+    "q": " Can I access my documents saved on Habot offline?",
+    "a": "No, all documents are in the cloud. You cannot access your documents offline, however, you may download it to have offline access."
+  },
+  {
+    "id": "q-97",
+    "q": " Is there any device limit?",
+    "a": "No, as long as it is an android and ios device."
+  },
+  {
+    "id": "q-98",
+    "q": "  Is Habot available for both mobile and desktop?",
+    "a": "Yes, the Habot is available for both mobile and desktop."
+  },
+  {
+    "id": "q-99",
+    "q": "  Can I log into multiple devices at the same time?",
+    "a": "Yes, you can log in to your mobile app and desktop at the same time."
+  },
+  {
+    "id": "q-100",
+    "q": " Can I check the documents upload history?",
+    "a": "Yes, you can see the uploaded documents at any time."
+  },
+  {
+    "id": "q-101",
+    "q": " How can I check my purchase history?",
+    "a": "There is a purchase history page wherein you can check your previous transactions.."
+  },
+  {
+    "id": "q-102",
+    "q": " Can I check the history of queries I raised?",
+    "a": "Yes, you can have the access to see the previous queries."
+  },
+  {
+    "id": "q-103",
+    "q": " What is the size limit I can upload the documents?",
+    "a": "There is no restriction on the kind or size of the document."
+  },
+  {
+    "id": "q-104",
+    "q": "What is the minimum size of a file I can upload?",
+    "a": "There is no restriction on the kind or size of the document."
+  },
+  {
+    "id": "q-105",
+    "q": " What is the storage capacity of the document?",
+    "a": "The storage capacity of the document is unlimited."
+  },
+  {
+    "id": "q-106",
+    "q": "How can I recover my deleted documents?",
+    "a": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+  },
+  {
+    "id": "q-107",
+    "q": "Is there any time limit to recovering the deleted documents",
+    "a": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+  },
+  {
+    "id": "q-108",
+    "q": " Is there any backup for the documents?",
+    "a": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+  },
+  {
+    "id": "q-109",
+    "q": "Can I upload multiple documents at the same time?",
+    "a": " Yes, you can upload multiple documents at the same time."
+  },
+  {
+    "id": "q-110",
+    "q": "Is there any limit on document storage?",
+    "a": " There is no limit to document storage capacity."
+  },
+  {
+    "id": "q-111",
+    "q": "Is there any particular size required when uploading the documents?",
+    "a": "No, there is no particular size requirement for uploading the documents."
+  },
+  {
+    "id": "q-112",
+    "q": "Can I save the downloaded documents in the Habot app?",
+    "a": "Yes, you can save your downloaded documents in the Habot app."
+  },
+  {
+    "id": "q-113",
+    "q": " Can the format of the documents be changed while downloading?",
+    "a": " No, the format of the documents cannot be changed while downloading."
+  },
+  {
+    "id": "q-114",
+    "q": "  How can I download the documents using the Habot app?",
+    "a": "A There is a download option/ icon wherein it will allow you to download the document."
+  },
+  {
+    "id": "q-115",
+    "q": "  Can I use the Habot app to email the documents to multiple people?",
+    "a": " Yes, there is an option to share your documents."
+  },
+  {
+    "id": "q-116",
+    "q": " Can I email multiple documents together?",
+    "a": "  Yes, you can email multiple documents together."
+  },
+  {
+    "id": "q-117",
+    "q": "  Is there a particular size of the email for sending the documents altogether?",
+    "a": "No there is no restriction on a particular size of the email for sending the documents altogether."
+  },
+  {
+    "id": "q-118",
+    "q": " Is there a limit to the number of documents I can share at a go?",
+    "a": "No, there is no limit to the number of documents I can share at a go."
+  },
+  {
+    "id": "q-119",
+    "q": " Can I share/upload in any format?",
+    "a": "You can share/upload any documents in any format (pdf,xls,jpg,png,doc) but it will be converted to pdf automatically."
+  },
+  {
+    "id": "q-120",
+    "q": "  Can I share the documents in the Habot app to other apps?",
+    "a": " You can share any documents to other apps by downloading the document on your phone/laptop."
+  },
+  {
+    "id": "q-121",
+    "q": " Can I choose a format for downloading my documents?",
+    "a": "All documents are converted to PDF once uploaded."
+  },
+  {
+    "id": "q-122",
+    "q": " Are there any restrictions on downloading a document?",
+    "a": "No, there is no restriction on downloading the document."
+  },
+  {
+    "id": "q-123",
+    "q": "Will I have edit access to documents I have downloaded?",
+    "a": " Editing the document is entirely your choice and Habot takes no responsibility for the contents of the documents and its alteration."
+  },
+  {
+    "id": "q-124",
+    "q": "Where can I get all the notifications on the Habot app?",
+    "a": " Notifications are sent through the Habot app (notification bar on your phone)."
+  },
+  {
+    "id": "q-125",
+    "q": " Will I get a notification for the documents expiry?",
+    "a": " Yes, you will get a notification for the documents expiry."
+  },
+  {
+    "id": "q-126",
+    "q": "  Can I set reminder and notification for documents expiry in Habot app ?",
+    "a": "Yes, there is a feature wherein you can get notified for your documents that has an expiry date."
+  },
+  {
+    "id": "q-127",
+    "q": " How will I get the renewal reminders?",
+    "a": " You will get the renewal reminder via email and call."
+  },
+  {
+    "id": "q-128",
+    "q": " Is the renewal reminder sent every day?",
+    "a": " No, renewal reminders are sent 90 days, 60 days and 30 days before document expiraton due date."
+  },
+  {
+    "id": "q-129",
+    "q": " Is there a grace period to access my documents after the subscription has expired?",
+    "a": " We will store/keep your documents for the next 3 months. If you decide not to renew after 3 months, documents will be removed and deleted from our system."
+  },
+  {
+    "id": "q-130",
+    "q": "Is there a penalty cost for late renewal after the subscription has expired?",
+    "a": " No, the only cost you'll pay is for the subscription itself."
+  },
+  {
+    "id": "q-131",
+    "q": " Can one still access their documents even if the subscription has expired?",
+    "a": " No, one has to renew their subscription to access their documents."
+  },
+  {
+    "id": "q-132",
+    "q": "What happens with my documents if I wish not to renew my subscription after expiry?",
+    "a": "We will store/keep your documents for the next 3 months. If you decide not to renew after 3 months, documents will be removed and deleted from our system.."
+  },
+  {
+    "id": "q-133",
+    "q": "What Habot features are limited when offline?",
+    "a": "No features are accessible offline.."
+  },
+  {
+    "id": "q-134",
+    "q": "Can I edit my documents offline?",
+    "a": "No, offline features are not available."
+  },
+  {
+    "id": "q-135",
+    "q": "Can I share my documents offline?",
+    "a": "No, offline features are not available."
+  },
+  {
+    "id": "q-136",
+    "q": "Is there a package that allows for offline use of all the functions of the app?",
+    "a": "None, offline features are not available.."
+  },
+  {
+    "id": "q-137",
+    "q": "What is the size limit to the files I can upload?",
+    "a": "There is no restriction on the kind or size of files that may be uploaded in the app. All files are recognized and there are no maximum limitations."
+  },
+  {
+    "id": "q-138",
+    "q": "What file type can be uploaded on the Habot app?",
+    "a": "There is no restriction on the kind or size of files that may be uploaded in the app. All files are recognized and there are no maximum limitations."
+  },
+  {
+    "id": "q-139",
+    "q": "Can I share my documents offline?",
+    "a": " Any file type or size can be shared with other individuals."
+  },
+  {
+    "id": "q-140",
+    "q": "Can I take a photo of the document and upload it?",
+    "a": " Yes, you can upload photos of documents."
+  },
+  {
+    "id": "q-141",
+    "q": "What devices can I use to record the documents?",
+    "a": " Any device you have downloaded the app on or scanner or camera can record the document."
+  },
+  {
+    "id": "q-142",
+    "q": "Are photos from all version of phones accepted??",
+    "a": " Yes, photos taken by any type of phone can be uploaded."
+  },
+  {
+    "id": "q-143",
+    "q": "Is there a limit of the number of people I can refer?",
+    "a": " No, one can refer as many clients as possible."
+  },
+  {
+    "id": "q-144",
+    "q": "Is there a limit to the number of times I can share the referral codes?",
+    "a": " No, one can share the referral code as much as possible."
+  },
+  {
+    "id": "q-145",
+    "q": "Is there a limit to the referral points I can get?",
+    "a": " No, you'll get as many referral points as the referrers who'll subscribe."
+  },
+  {
+    "id": "q-146",
+    "q": "Do I need an email address to sign in?",
+    "a": "Yes, you need an email address to sign in."
+  },
+  {
+    "id": "q-147",
+    "q": "Can I change my password at anytime?",
+    "a": "Yes, you can change the password at anytime."
+  },
+  {
+    "id": "q-148",
+    "q": " Is credit card information required to sign into the app?",
+    "a": "No, credit card information isn't required to sign up."
+  },
+  {
+    "id": "q-149",
+    "q": "After signing in, is there a 2-step verification to keep my account safe?",
+    "a": " Yes, there is a 2-step verification for keeping your account safe"
+  },
+  {
+    "id": "q-150",
+    "q": " Can I open multiple accounts at once?",
+    "a": "You can open multiple accounts with diff email IDs and phone number."
+  },
+  {
+    "id": "q-151",
+    "q": " Can I use the discounts provided on more than one account?",
+    "a": "No, discounts can only be used under the primary account."
+  },
+  {
+    "id": "q-152",
+    "q": " Can I open more than one account but from different packages?",
+    "a": "You can open multiple accounts with diff packages as long as the email IDs and phone numbers are different."
+  },
+  {
+    "id": "q-153",
+    "q": "Is there a language restriction for uploading documents?",
+    "a": "No, you can upload documents that are in any language."
+  },
+  {
+    "id": "q-154",
+    "q": "Can my documents be translated for an execution?",
+    "a": " Yes, the document can be translated at a fee."
+  },
+  {
+    "id": "q-155",
+    "q": "Do you charge extra to store documents that aren't in english?",
+    "a": "No, there isn't any extra charge related to document language."
+  },
+  {
+    "id": "q-156",
+    "q": " Will I get an email notification telling me of the offers?",
+    "a": "Yes, an email will be sent to the registered email address notifying you of any important emails."
+  },
+  {
+    "id": "q-157",
+    "q": "Which email address will I receive the offers under?",
+    "a": "Yes, an email will be sent to the registered email address notifying you of any important emails."
+  },
+  {
+    "id": "q-158",
+    "q": "Can I use an offer after it's expiry period?",
+    "a": "No, an offer cannot be used after the stated expiry period."
+  }
+]
